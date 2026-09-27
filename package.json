@@ -1,0 +1,15 @@
+{
+  "name": "google-ads-transparency-scraper",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Every ad a domain runs, from the public Ads Transparency Center. Python, Node.js and cURL clients for the Google Ads Transparency Scraper on Apify, pay per result.",
+  "main": "google_ads_transparency_scraper.mjs",
+  "scripts": {
+    "start": "node google_ads_transparency_scraper.mjs"
+  },
+  "dependencies": {
+    "apify-client": "^2.9.0"
+  },
+  "license": "MIT",
+  "homepage": "https://themineworks.com/actors/google-ads-transparency/"
+}
