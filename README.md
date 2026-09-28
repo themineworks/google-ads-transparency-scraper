@@ -5,7 +5,7 @@ Pull the ads a domain is running from Google's Ads Transparency Center archive: 
 **Run it on Apify:** [apify.com/themineworks/google-ads-transparency](https://apify.com/themineworks/google-ads-transparency)
 **Docs, FAQ and pricing:** [themineworks.com/actors/google-ads-transparency](https://themineworks.com/actors/google-ads-transparency/)
 
-**Price:** $0.60 per 1,000 ads on Apify's free plan, down to $0.36 on higher plans, plus a $0.005 start fee per run. Failed and empty results are never charged.
+**Price:** From $0.36 per 1,000 ads on Apify's higher plans ($0.60 on the free plan), plus a $0.005 start fee per run. Failed and empty results are never charged.
 
 ## What it returns
 
@@ -14,7 +14,7 @@ Pull the ads a domain is running from Google's Ads Transparency Center archive: 
 * First-shown and last-shown dates
 * Country-level scoping for region-specific ad variants
 * Reads the public archive directly, no login or API key
-* Zero charge on failed lookups
+* Failed lookups are never charged
 
 ## Quick start
 
@@ -132,7 +132,7 @@ Yes. Scope a run to a specific country to see the ad variants served in that mar
 
 ### What does it cost?
 
-Pay-per-event at $0.60 per 1,000 ads delivered ($0.0006 each). Nothing is charged when a domain returns no ads.
+Pay per result: from $0.36 per 1,000 ads on Apify's higher plans, $0.60 on the free plan, plus a $0.005 start fee per run. Nothing is charged when a domain returns no ads.
 
 ### Can I export the results to CSV or Excel?
 
